@@ -1,72 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint"
-        contant="width=device-width,
-        initial-scale=1.0">
-        <!--title-->
-        <title>Contact</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | AutoPro</title>
 
-        <!-- boc icon cdn link -->
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+  <!-- Boxicon CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
 
-        <header class="header">
-            <a href="#" class="logo">AutoPro</a>
+  <header class="header">
+    <a href="index.html" class="logo">AutoPro</a>
 
-         <nav class="navbar">
-             <a href="index.html">Home</a>
-                 <a href="about.html">About</a>
-                 <a href="services.html">Services</a>
-                 <a href="booking.html">Booking</a>
-                 <a href="contact.html">Contact</a>
-            </nav>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
 
-<main id="main">
-  <h1>Get in Touch</h1>
+  <main id="main">
+    <h1>Get in Touch</h1>
 
-  <section class="contact-grid">
-    <div>
-      <h2>Detail Studio — Burgerfort</h2>
-      <p>78 Ave, Sandton, 2196</p>
-      <p>Phone: +27 10 555 0123</p>
-      <p>Email: hello@pristinerides.co.za</p>
-      <div class="map-embed" aria-label="Map Sandton">
-        <!-- Replace with real Google Maps embed -->
-        <iframe title="Sandton Map" loading="lazy"></iframe>
+    <section class="contact-grid">
+      <div>
+        <h2>Detail Studio — Burgersfort</h2>
+        <address>
+          78 Ave, Burgersfort, 2196<br>
+          <strong>Phone:</strong> +27 10 555 0123<br>
+          <strong>Email:</strong> <a href="mailto:hello@AutoPro.co.za">hello@AutoPro.co.za</a>
+        </address>
+
+        <div class="map-embed" aria-label="Map Burgersfort">
+          <!-- Replace with your real Google Maps embed link -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..." 
+            width="100%" height="250" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Burgersfort Map">
+          </iframe>
+        </div>
       </div>
-    </div>
 
-    <div>
-      <h2>Mobile Service Hours</h2>
-      <p>Mon–Sat • 08:00–18:00</p>
+      <div>
+        <h2>Mobile Service Hours</h2>
+        <p>Mon–Sat • 08:00–18:00</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <h2>Quick Message</h2>
-    <form action="#" method="post" novalidate>
-      <label for="c-name">Name</label>
-      <input id="c-name" name="name" type="text" required>
+    <section>
+      <h2>Quick Message</h2>
+      <form action="#" method="post" novalidate>
+        <label for="c-name">Name</label>
+        <input id="c-name" name="name" type="text" required>
 
-      <label for="c-email">Email</label>
-      <input id="c-email" name="email" type="email" required>
+        <label for="c-email">Email</label>
+        <input id="c-email" name="email" type="email" required>
 
-      <label for="c-msg">Message</label>
-      <textarea id="c-msg" name="message" rows="6" required></textarea>
+        <label for="c-msg">Message</label>
+        <textarea id="c-msg" name="message" rows="6" required></textarea>
 
-      <button class="btn" type="submit">Send</button>
-      <a class="btn-outline" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
-    </form>
-  </section>
-</main>
+        <button class="btn" type="submit" aria-label="Send message">Send</button>
+        <a class="btn-outline" href="https://wa.me/27XXXXXXXXX" 
+           target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+          WhatsApp
+        </a>
+      </form>
+    </section>
+  </main>
 
-<footer>
-  <small>&copy; <span id="year"></span>AutoPro</small>
-</footer>
-<script src="js/main.js"></script>
+  <footer>
+    <small>&copy; <span id="year"></span> AutoPro</small>
+  </footer>
+
 </body>
 </html>
