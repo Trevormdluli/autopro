@@ -1,73 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint"
-        contant="width=device-width,
-        initial-scale=1.0">
-        <!--title-->
-        <title>Booking</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking | AutoPro</title>
 
-        <!-- boc icon cdn link -->
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
 
-        <header class="header">
-            <a href="index.html" class="logo">AutoPro</a>
+  <header class="header">
+    <a href="index.html" class="logo">AutoPro</a>
 
-        <nav class="navbar">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="booking.html">Booking</a>
-          <a href="contact.html">Contact</a>
-            </nav>
-        </div>
- </header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html" class="active">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<main id="main">
-  <h1>Book an Appointment</h1>
-  <form id="booking-form" action="#" method="post" novalidate>
-    <fieldset>
-      <legend>Your Details</legend>
-      <label for="name">Full Name</label>
-      <input id="name" name="name" type="text" required>
+  <main id="main">
+    <h1>Book an Appointment</h1>
+    <form id="booking-form" action="#" method="post" novalidate>
+      
+      <fieldset>
+        <legend>Your Details</legend>
 
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" required>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
 
-      <label for="phone">Phone</label>
-      <input id="phone" name="phone" type="tel" inputmode="tel" required>
-    </fieldset>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
 
-    <fieldset>
-      <legend>Vehicle &amp; Service</legend>
-      <label for="make">Make &amp; Model</label>
-      <input id="make" name="make" type="text" placeholder="e.g., BMW 3 Series" required>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+      </fieldset>
 
-      <label for="service">Service</label>
-      <select id="service" name="service" required>
-        <option value="">Choose…</option>
-        <option value="express">Express Wash</option>
-        <option value="full">Full Detail</option>
-        <option value="extreme">Extreme detail</option>
-      </select>
+      <fieldset>
+        <legend>Vehicle &amp; Service</legend>
 
-      <label for="date">Preferred Date</label>
-      <input id="date" name="date" type="date" required>
+        <label for="make">Make &amp; Model</label>
+        <input id="make" name="make" type="text" placeholder="e.g., BMW 3 Series" required>
 
-    <label class="check">
-      <input type="checkbox" name="mobile" value="yes"> Request mobile service (at your location)
-    </label>
+        <label for="service">Service</label>
+        <select id="service" name="service" required>
+          <option value="">Choose…</option>
+          <option value="express">Express Wash</option>
+          <option value="full">Full Detail</option>
+          <option value="extreme">Extreme Detail</option>
+        </select>
 
-    <button class="btn" type="submit">Submit Request</button>
-  </form>
-</main>
+        <label for="date">Preferred Date</label>
+        <input id="date" name="date" type="date" min="<?= date('Y-m-d'); ?>" required>
 
-<footer>
-  <small>&copy; <span id="year"></span>AutoPro</small>
-</footer>
-<script src="js/main.js"></script>
+        <label class="check">
+          <input type="checkbox" name="mobile" value="yes"> Request mobile service (at your location)
+        </label>
+      </fieldset>
+
+      <button class="btn" type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer>
+    <small>&copy; <span id="year"></span> AutoPro</small>
+  </footer>
+
 </body>
 </html>
+
