@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"
+        contant="width=device-width,
+        initial-scale=1.0">
+        <!--title-->
+        <title>Booking</title>
+
+        <!-- boc icon cdn link -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="index.html" class="logo">AutoPro</a>
+
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="booking.html">Booking</a>
+          <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+ </header>
+
+<main id="main">
+  <h1>Book an Appointment</h1>
+  <form id="booking-form" action="#" method="post" novalidate>
+    <fieldset>
+      <legend>Your Details</legend>
+      <label for="name">Full Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" inputmode="tel" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Vehicle &amp; Service</legend>
+      <label for="make">Make &amp; Model</label>
+      <input id="make" name="make" type="text" placeholder="e.g., BMW 3 Series" required>
+
+      <label for="service">Service</label>
+      <select id="service" name="service" required>
+        <option value="">Choose…</option>
+        <option value="express">Express Wash</option>
+        <option value="full">Full Detail</option>
+        <option value="extreme">Extreme detail</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input id="date" name="date" type="date" required>
+
+    <label class="check">
+      <input type="checkbox" name="mobile" value="yes"> Request mobile service (at your location)
+    </label>
+
+    <button class="btn" type="submit">Submit Request</button>
+  </form>
+</main>
+
+<footer>
+  <small>&copy; <span id="year"></span>AutoPro</small>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
