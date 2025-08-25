@@ -71,8 +71,18 @@ Week 10: launch of the website
 Research 
 Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
 pic https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_1280.jpg
-social media icons: Boxicons 
-icons: Boxicons
+social media icon: Boxicons
+
+Changelog
+version 0.1 
+Project Proposal along with the sitemap
+version 0.2
+creation of the HTML files
+Version 0.3
+Content intergration 
+Readme.md file 
+version 0.4 
+code clean up and verification 
 
 
 References: 
