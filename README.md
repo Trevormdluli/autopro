@@ -36,6 +36,7 @@ Services: package offers along with prices.
 Bookings: online appointment form 
 Contact Page:  phone number, social media details and location.
 
+
 Sitemap: 
 Home (index.html)
 Hero section (logo, nav menu, welcome)
@@ -61,12 +62,25 @@ Google Map (Burgersfort Studio)
 Contact Form
 Social Media Links
 
-Timeline and milestone
+Technical Requirements 
+Domain: www.AutoPro.co.za
+Booking form functionality: javascript integration with email notifications
+Technologies: HTML5, CSS and javascript
+
+Timeline and milestone:
 Week 1 to 2: research and wireframe design 
 Week 3 to 5: The development of the homepage and services 
 Week 6 to 7: booking form integration 
 Week 8 to 9: final testing and deployment 
 Week 10: launch of the website 
+
+Budget: 
+Design and development: R10000
+Hosting and domain: R1300 per year 
+Booking system and integration: R2000
+Maintenance: R500 per month 
+Total estimated budget: R19300
+
 
 Research 
 Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
@@ -83,7 +97,6 @@ Content intergration
 Readme.md file 
 version 0.4 
 code clean up and verification 
-
 
 References: 
 Allancx web. 2025. Average website maintenance costs in south Africa. Available at: https://www.allanxweb.com [Accessed: 18 August 2025].  
