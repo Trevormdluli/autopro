@@ -86,6 +86,8 @@ Research
 Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
 pic https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_1280.jpg
 social media icon: Boxicons
+Content gathering: Precision Glaze Professional auto detailing, Postermywall, Mycreativeshop and Youtube 
+
 
 Changelog
 version 0.1 
@@ -103,6 +105,7 @@ Allancx web. 2025. Average website maintenance costs in south Africa. Available 
 Boxicons. 2025. Boxicons:Premium web friendly icons for free. Available at: https://v2.boxicons.com [Accessed: 25 August 2025].
 Google. 2025. Burgersfort, limpopo, Google Maps. Available at: https://goo.hl/maps/REPLACE [Accessed: 25 August 2025]. 
 Hostafrica. 2025. Fast,reliable and secure web hosting in south Africa Available at: https://www.hostafrica.co.za [Accessed: 18 August 2025].  
+OpenAi.2025. ChatGPT(GPT-5). Available at: https://chat.openai.com [Accessed: 20 August 2025].
 Pixabay. 2025. Discover and download- images for every need. Available at: https://pixabay.com [Accessed: 25 August 2025].
 Sergeant, C., 2025. Shopify pricing south Africa 2025: plans,Cost and Netcash fees. Available at: https:netcash.co.za [Accessed: 18 August 2025].
 W3Schools (2025) HTML Tutorial. Available at: https://www.w3schools.com/html/ [Accessed: 18 August 2025].  
