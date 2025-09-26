@@ -81,12 +81,30 @@ Booking system and integration: R2000
 Maintenance: R500 per month 
 Total estimated budget: R19300
 
+Colours and text styling of the website:
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background colour is white 
+body colour is black
+logo and buttons are green and change to orange 
+navigation bar the background is black and the writing is green and the active one is orange 
+the footer has a white background and the letters are black
+ 
+ The changes that i made
+ the nav bar has animations and the colours were changed 
+ a hamburger menu is add for mobile devices 
+ Icons are added to the services packages and the buttons are linked to the booking page 
+ the footer contains the date and social media icons 
+ The hompage information is updated  
+ the about us information is updated 
+ Added a CSS folder
+ has the stylings, boarders and the animations. 
 
 Research 
 Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
 pic https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_1280.jpg
 social media icon: Boxicons
 Content gathering: Precision Glaze Professional auto detailing, Postermywall, Mycreativeshop and Youtube 
+
 
 
 Changelog
@@ -101,13 +119,17 @@ version 0.4
 code clean up and verification 
 
 References: 
-Allancx web. 2025. Average website maintenance costs in south Africa. Available at: https://www.allanxweb.com [Accessed: 18 August 2025].  
-Boxicons. 2025. Boxicons:Premium web friendly icons for free. Available at: https://v2.boxicons.com [Accessed: 25 August 2025].
-Google. 2025. Burgersfort, limpopo, Google Maps. Available at: https://goo.hl/maps/REPLACE [Accessed: 25 August 2025]. 
-Hostafrica. 2025. Fast,reliable and secure web hosting in south Africa Available at: https://www.hostafrica.co.za [Accessed: 18 August 2025].  
+Allancx web. 2025. Average website maintenance costs in south Africa. Available at: https://www.allanxweb.com [Accessed 18 August 2025].  
+Boxicons. 2025. Boxicons:Premium web friendly icons for free. Available at: https://v2.boxicons.com [Accessed 25 August 2025].
+Codearry. 2024. Responsive navbar menu using html and css |animated hamburger menu. Available at: https://www.youtube.com/@codearry. [Accessed 24 September 2025].
+Coding2go. 2024. Learn css animations in 9 minutes. Available at: https://www.youtube.com/@coding2go. [Accessed 25 September].
+Gayantha, K., 2023. How to make website using html and css. Available at: https://www.youtube.com/@kashum920. [Accessed 24 September 2025]. 
+Google. 2025. Burgersfort, limpopo, Google Maps. Available at: https://goo.hl/maps/REPLACE [Accessed 25 August 2025]. 
+Hostafrica. 2025. Fast,reliable and secure web hosting in south Africa Available at: https://www.hostafrica.co.za [Accessed 18 August 2025].  
 OpenAi.2025. ChatGPT(GPT-5). Available at: https://chat.openai.com [Accessed: 20 August 2025].
-Pixabay. 2025. Discover and download- images for every need. Available at: https://pixabay.com [Accessed: 25 August 2025].
-Sergeant, C., 2025. Shopify pricing south Africa 2025: plans,Cost and Netcash fees. Available at: https:netcash.co.za [Accessed: 18 August 2025].
+Pixabay. 2025. Discover and download- images for every need. Available at: https://pixabay.com [Accessed 25 August 2025].
+Sergeant, C., 2025. Shopify pricing south Africa 2025: plans,Cost and Netcash fees. Available at: https:netcash.co.za [Accessed 18 August 2025].
 W3Schools (2025) HTML Tutorial. Available at: https://www.w3schools.com/html/ [Accessed: 18 August 2025].  
+W3Schools. 2025. CSS Tutorial. Available at: https://www.w3schools.com/html/ [Accessed: 24 September 2025].
 
 
