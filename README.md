@@ -82,7 +82,7 @@ Maintenance: R500 per month
 Total estimated budget: R19300
 
 
- The changes that i made
+ The changes that were made:
  Colours and text styling of the website:
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background colour is white 
@@ -145,6 +145,11 @@ Bruce
 Ice Blasting Specialist, using advanced technology to safely remove dirt and contaminants without damaging the integrity of every vehicle surface.
 Jay & Jack
 Paint Specialists dedicated to dent removal, paint correction, ceramic coatings, and PPF. They ensure flawless finishes.
+
+Booking page:
+a how it works section was added and Frequently Asked Questions along with answer were added along with icons 
+Contact page:
+a Newsletter Signup was added 
 
 
 
