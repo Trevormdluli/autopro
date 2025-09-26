@@ -1,53 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
         <meta charset="UTF-8">
+        <meta hppt-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AutoPro</title>
 
-  <!-- Boxicon CDN Link -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- css stylesheet Link -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
 
   <header class="header">
-    <a href="#" class="logo">AutoPro</a>
-<!--hero image-->
-    <div class="home-img">
-      <div class="square">
-        <img src="image/pic.jpg" alt="Car detailing" width="100%">
-      </div>
-    </div> <!--close home-img-->
+        <a href="#" class="logo">AutoPro</a>
+		<!-- Hidden checkbox toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+<!-- Hamburger button -->
+  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label> 
 <!--navigation bar-->
-            <nav class="navbar">
-                <a href="index.html">Home</a>
-                 <a href="about.html">About</a>
-                 <a href="services.html">Services</a>
-                 <a href="booking.html">Booking</a>
-                 <a href="contact.html">Contact</a>
-            </nav>
-            <!--Social media icons-->
-            <div class="social-media">
-      <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
-      <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
-      <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-      <a href="#" arial-label="Whatsapp"><i class='bx bxl-whatsapp'></i></a>
-    </div>
+    <nav class="navbar">
+        <a href="index.html" style="--i:1;" class="active">Home</a>
+        <a href="about.html" style="--i:2;">About</a>
+        <a href="services.html" style="--i:3;">Services</a>
+        <a href="booking.html" style="--i:4;">Booking</a>
+        <a href="contact.html" style="--i:5;">Contact</a>
+    </nav>
+
   </header>
-        <!--homepage details-->    
-  <section class="Home">
-    <div class="home-content">
-      <h1>Welcome to AutoPro</h1>
-      <h3>For The Ultimate Revival</h3>
-      <p>Experience the ultimate detailing service across Bugersfort and surrounding areas. On time, on site.</p>
+        <!--homepage details--> 
+	<section class="home">
+  <div class="home-content">
+    <h1>Welcome to AutoPro</h1>
+    <h3>For The Ultimate Revival</h3>
+    <p>Experience the ultimate detailing service across Burgersfort and surrounding areas. On time, on site.</p>
+     <p>At AutoPro, we do not just clean your car, we restore its shine, protect its surfaces, and make every drive feel brand new. Whether you need a quick refresh or a full detail, our expert team has you covered.</p>
+  
+     <ul class="highlights">
+    <li><i class='bx bx-check-circle'></i> Mobile detailing at your doorstep</li>
+    <li><i class='bx bx-check-circle'></i> Interior & exterior deep cleaning</li>
+    <li><i class='bx bx-check-circle'></i> Paint protection & polishing</li>
+    <li><i class='bx bx-check-circle'></i> Affordable, reliable, and professional</li>
+  </ul>
+
+  <p><strong>Trusted by drivers who want only the best for their vehicles.</strong></p>
+    </div>
+
+  <div class="home-img">
+    <img src="image/pic.jpg" alt="AutoPro Service">
+    <!-- Buttons below the image -->
+    <div class="home-buttons">
       <a href="services.html" class="btn">Services</a>
       <a href="booking.html" class="btn">Book Now</a>
     </div>
+  </div>
+</section>
+<!-- Why Choose Us Section -->
+  <section class="features">
+    <h2>Why Choose AutoPro?</h2>
+    <div class="features-container">
+      <div class="feature-box">
+        <i class='bx bxs-car'></i>
+        <h3>Expert Care</h3>
+        <p>Our professional team ensures your vehicle receives top-tier detailing and protection.</p>
+      </div>
+      <div class="feature-box">
+        <i class='bx bx-time-five'></i>
+        <h3>On-Site & On-Time</h3>
+        <p>We come to you at your convenience – saving time without compromising quality.</p>
+      </div>
+      <div class="feature-box">
+        <i class='bx bxs-star'></i>
+        <h3>Guaranteed Satisfaction</h3>
+        <p>We take pride in delivering outstanding results that revive your ride’s shine.</p>
+      </div>
+    </div>
   </section>
-
+  <!-- Call to Action Section -->
+  <section class="cta">
+    <h2>Ready to Revive Your Car?</h2>
+    <p>Book your professional detailing appointment today and experience the AutoPro difference!</p>
+    <a href="booking.html" class="btn">Book Now</a>
+  </section>
+  
   <footer>
-    <small>&copy; <span id="year"></span> AutoPro</small>
+	 <div class="social-media">
+    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+    <small>&copy; 2025 AutoPro</small>
   </footer>
+
 
 </body>
 </html>
