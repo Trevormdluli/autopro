@@ -4,19 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Booking | AutoPro</title>
-
+<!-- css stylesheet Link -->
+ <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
 
   <header class="header">
-    <a href="index.html" class="logo">AutoPro</a>
+        <a href="#" class="logo">AutoPro</a>
+<!-- Hidden checkbox toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+<!-- Hamburger button -->
+  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label> 
 <!--navigation bar-->
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="booking.html" class="active">Booking</a>
-      <a href="contact.html">Contact</a>
+        <a href="index.html" style="--i:1;">Home</a>
+        <a href="about.html" style="--i:2;">About</a>
+        <a href="services.html" style="--i:3;">Services</a>
+        <a href="booking.html" style="--i:4;"class="active">Booking</a>
+        <a href="contact.html" style="--i:5;">Contact</a>
     </nav>
   </header>
     
@@ -66,8 +76,15 @@
   </main>
 
   <footer>
-    <small>&copy; <span id="year"></span> AutoPro</small>
+    <div class="social-media">
+    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+    <small>&copy; 2025 AutoPro</small>
   </footer>
+  
 
 </body>
 </html>
