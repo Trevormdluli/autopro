@@ -81,15 +81,15 @@ Booking system and integration: R2000
 Maintenance: R500 per month 
 Total estimated budget: R19300
 
-Colours and text styling of the website:
+
+ The changes that i made
+ Colours and text styling of the website:
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background colour is white 
 body colour is black
 logo and buttons are green and change to orange 
 navigation bar the background is black and the writing is green and the active one is orange 
 the footer has a white background and the letters are black
- 
- The changes that i made
  the nav bar has animations and the colours were changed 
  a hamburger menu is add for mobile devices 
  Icons are added to the services packages and the buttons are linked to the booking page 
@@ -98,6 +98,55 @@ the footer has a white background and the letters are black
  the about us information is updated 
  Added a CSS folder
  has the stylings, boarders and the animations. 
+ The index page:
+ At AutoPro, we do not just clean your car, we restore its shine, protect its surfaces, and make every drive feel brand new. Whether you need a quick refresh or a full detail, our expert team has you covered.
+Mobile detailing at your doorstep
+Interior & exterior deep cleaning
+Paint protection & polishing
+Affordable, reliable, and professional
+ addded a features section and  Call to Action Section to the index page
+
+ The about us page:
+ AutoPro is a premium car detailing business established in 2020, proudly serving Burgersfort and surrounding areas. What started as a passion for restoring vehicles to their original showroom condition has grown into a trusted brand known for precision, innovation, and customer satisfaction.
+
+We specialize in both in-studio detailing and mobile services, allowing us to bring our expertise directly to you. Whether you are an individual car owner, a dealership, or a private collector, we ensure every vehicle receives the highest standard of care. Over the years, our team has worked on everything from everyday sedans to luxury cars and high-performance vehicles, earning the confidence of our clients through reliability and results.
+
+2020
+Founded in Burgersfort with a vision to deliver detailing excellence.
+2022
+Expanded into mobile detailing services, bringing convenience to our clients.
+2023
+we got recognised as one of the top car detailing providers in Burgersfort.
+
+Our Mission
+Our mission is to deliver world-class car detailing services that go beyond surface-level cleaning. We are dedicated to restoring vehicles to OEM condition while enhancing their durability and long-term value. Whether it is a quick wash or a full restoration, our focus is always on meeting expectations and ensuring customer satisfaction.
+
+Our Vision
+Our vision is to become the leading car detailing company in South Africa and beyond, recognized for innovation, professionalism, and trust. We aspire to set the standard in the automotive care industry by introducing cutting-edge techniques such as ceramic coatings, paint protection films, and eco-friendly solutions. By continuously evolving with the industry and listening to our clients needs, we seek to inspire vehicle owners to take pride in their cars, not only for aesthetics but also for preservation and long-term performance.
+
+
+Our Values
+Excellence
+We treat every car as if it were our own, with precision, care, and pride in workmanship .
+Trust
+We build lasting relationships through honesty, transparency, and reliability.
+Innovation
+We continuously explore new detailing technologies, products, and methods to stay ahead of the curve.
+Passion
+Our love for cars drives our dedication for perfection and is the energy behind everything we do.
+Sustainability
+We are committed to reducing water usage and protecting the environment. We also use eco-friendly products.
+Customer Focus
+We tailor every service to meet the unique needs of our clients.
+Meet the Team
+Kabelo M & Tim
+Master Detailers with years of experience in both exterior and interior vehicle restoration. Their expertise ensures precision in every detail, from paint correction to deep interior cleaning.
+Bruce
+Ice Blasting Specialist, using advanced technology to safely remove dirt and contaminants without damaging the integrity of every vehicle surface.
+Jay & Jack
+Paint Specialists dedicated to dent removal, paint correction, ceramic coatings, and PPF. They ensure flawless finishes.
+
+
 
 Research 
 Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
