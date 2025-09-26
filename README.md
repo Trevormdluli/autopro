@@ -89,7 +89,7 @@ background colour is white
 body colour is black
 logo and buttons are green and change to orange 
 navigation bar the background is black and the writing is green and the active one is orange 
-the footer has a white background and the letters are black
+the footer has a black background and the letters are white 
  the nav bar has animations and the colours were changed 
  a hamburger menu is add for mobile devices 
  Icons are added to the services packages and the buttons are linked to the booking page 
