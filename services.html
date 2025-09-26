@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Explore AutoPro detailing packages including Express Wash, Full Detail, Extreme Detail, and Ultimate Detail.">
-      <title>Services | AutoPro</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore AutoPro detailing packages including Express Wash, Full Detail, Extreme Detail, and Ultimate Detail.">
+  <title>Services | AutoPro</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <a href="index.html" class="logo">AutoPro</a>
-
-    <div class="img">
-      <div class="square">
-        <img src="image/car.jpg" alt="Car detailing" width="100%">
-      </div>
-    </div>
-<!-- navigation bar-->
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html" class="active">Services</a>
-      <a href="booking.html">Booking</a>
-      <a href="contact.html">Contact</a>
+    <a href="#" class="logo">AutoPro</a>
+    <!-- Hidden checkbox toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+<!-- Hamburger button -->
+  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label> 
+    <!-- Navigation bar -->
+<nav class="navbar">
+    <a href="index.html" style="--i:1;">Home</a>
+      <a href="about.html" style="--i:2;">About</a>
+      <a href="services.html" style="--i:3;" class="active">Services</a>
+      <a href="booking.html" style="--i:4;">Booking</a>
+      <a href="contact.html" style="--i:5;">Contact</a>
     </nav>
   </header>
 
-<!---services-->
-<main id="main">
-  <h1>Detailing Packages</h1>
+  <!-- Services -->
+  <main id="main">
+    <h1>Detailing Packages</h1>
 
-  <section id="express">
-    <h2>Express Wash</h2>
-    <ul>
-      <li>Snow-foam pre-wash</li>
-      <li>two-bucket hand wash</li>
-      <li>Wheel and tyre clean, blow-dry</li>
-      <li>From R200</li>
-      <li>60 to 90 min</li>
-    </ul>
-    <a class="btn" href="booking.html?service=express">Book Express</a>
-  </section>
+    <section class="services-grid">
+      <article class="service-card">
+        <h2>🚗 Express Wash 🚗</h2>
+        <ul>
+          <li>Snow-foam pre-wash</li>
+          <li>Two-bucket hand wash</li>
+          <li>Wheel and tyre clean, blow-dry</li>
+          <li><span class="price">R200</span></li>
+          <li>⏱ 60 to 90 min</li>
+        </ul>
+        <a class="btn" href="booking.html?service=express">Book Express</a>
+      </article>
 
-  <section id="full">
-    <h2>Full Detail</h2>
-    <ul>
-      <li>Snow-foam pre-wash</li>
-      <li>Power pressure wash</li>
-      <li>Wheel and tyre clean, blow-dry</li>
-      <li>Interior detail</li>
-      <li>From R350</li>
-      <li>4 to 6 hrs</li>
-    </ul>
-    <a class="btn" href="booking.html?service=full">Book Full Detail</a>
-  </section>
+      <article class="service-card">
+        <h2>✨ Full Detail ✨</h2>
+        <ul>
+          <li>Snow-foam pre-wash</li>
+          <li>Power pressure wash</li>
+          <li>Wheel and tyre clean, blow-dry</li>
+          <li>Interior detail</li>
+          <li><span class="price">From R350</span></li>
+          <li>⏱ 4 to 6 hrs</li>
+        </ul>
+        <a class="btn" href="booking.html?service=full">Book Full Detail</a>
+      </article>
 
-  <section id="extreme">
-    <h2>Extreme detail</h2>
-    <ul>
-      <li>Snow-foam pre-wash</li>
-      <li>Power pressure wash or hand wash</li>
-      <li>Wheel and tyre clean, blow-dry</li>
-      <li>Interior detail</li>
-      <li>Ceramic coating</li>
-      <li>Engine bay detail</li>
-      <li>Chassis clean</li>
-      <li>From R800</li>
-      <li>1 day</li>
-    </ul>
-    <a class="btn" href="booking.html?service=extreme">Book Extreme detail</a>
-  </section>
-    <section id="ultimate">
-    <h2>Ultimate detail</h2>
-    <ul>
-      <li>Dent removal</li>
-      <li>Full paint correction</li>
-      <li>Paint protection film</li>
-      <li>Ice blasting</li>
-      <li>From R3,500</li>
-      <li>2 to 3 days</li>
-    </ul>
-    <a class="btn" href="booking.html?service=ultimate">Book Ultimate detail</a>
-  </section>
-</main>
+      <article class="service-card">
+        <h2>🔥 Extreme Detail 🔥</h2>
+        <ul>
+          <li>Snow-foam pre-wash</li>
+          <li>Power pressure wash or hand wash</li>
+          <li>Wheel and tyre clean, blow-dry</li>
+          <li>Interior detail</li>
+          <li>Ceramic coating</li>
+          <li>Engine bay detail</li>
+          <li>Chassis clean</li>
+          <li><span class="price">From R800</span></li>
+          <li>⏱ 1 day</li>
+        </ul>
+        <a class="btn" href="booking.html?service=extreme">Book Extreme Detail</a>
+      </article>
 
-<footer>
-  <small>&copy; <span id="year"></span>AutoPro</small>
-</footer>
+      <article class="service-card">
+        <h2>👑 Ultimate Detail 👑</h2>
+        <ul>
+          <li>Dent removal</li>
+          <li>Full paint correction</li>
+          <li>Paint protection film</li>
+          <li>Ice blasting</li>
+          <li><span class="price">From R3,500</span></li>
+          <li>⏱ 2 to 3 days</li>
+        </ul>
+        <a class="btn" href="booking.html?service=ultimate">Book Ultimate Detail</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-media">
+    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+    <small>&copy; 2025 AutoPro</small>
+  </footer>
+
 
 </body>
 </html>
