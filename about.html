@@ -5,71 +5,152 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="AutoPro - Professional car detailing services in Burgersfort">
      <title> About | AutoPro</title>
-  
+  <!-- css stylesheet Link -->
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet">
     </head>
     <body>
+
 <header class="header">
-    <a href="index.html" class="logo">AutoPro</a>
+        <a href="#" class="logo">AutoPro</a>
+    <!-- Hidden checkbox toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+<!-- Hamburger button -->
+  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label> 
+
 <!--navigation bar-->
     <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
-      <a href="services.html">Services</a>
-      <a href="booking.html">Booking</a>
-      <a href="contact.html">Contact</a>
+        <a href="index.html" style="--i:1;">Home</a>
+        <a href="about.html" style="--i:2;" class="active">About</a>
+        <a href="services.html" style="--i:3;">Services</a>
+        <a href="booking.html" style="--i:4;">Booking</a>
+        <a href="contact.html" style="--i:5;">Contact</a>
     </nav>
+
   </header>
 <!--Company overview-->
-  <main id="main">
-    <h1>About AutoPro</h1>
+ <section class="about">
+  <div class="about-content">
+    <h1>About Us</h1>
     <p>
-      AutoPro is a car detailing business established in 2020, proudly serving Burgersfort and the surrounding areas. We offer both in-studio detailing and convenient mobile services, ensuring that your vehicle receives expert care no matter where you are. Our reputation has grown rapidly thanks to our uncompromising attention to detail, serving a diverse range of clients, from individual car owners and dealerships to private collectors who demand only the best.
+      AutoPro is a premium car detailing business established in 2020, proudly serving Burgersfort and surrounding areas. 
+      What started as a passion for restoring vehicles to their original showroom condition has grown into a trusted brand 
+      known for precision, innovation, and customer satisfaction. 
+    </p>
+    <p>
+      We specialize in both in-studio detailing and mobile services, allowing us to bring our expertise directly to you. 
+      Whether you are an individual car owner, a dealership, or a private collector, we ensure every vehicle receives the 
+      highest standard of care. Over the years, our team has worked on everything from everyday sedans to luxury cars and 
+      high-performance vehicles, earning the confidence of our clients through reliability and results.
     </p>
 
-    <section>
-      <h2>Our Mission</h2>
-      <p>
-        To provide high end services to our clients and restore their cars to OEM condition. We are committed to combining precision techniques and a customer-first approach to ensure that every client is satisfied. Whether at our studio or through our mobile unit, the goal is to deliver quality.
-      </p>
+    <!-- Timeline-style journey -->
+    <div class="timeline">
+      <div class="timeline-item">
+        <i class="bx bx-flag"></i>
+        <h3>2020</h3>
+        <p>Founded in Burgersfort with a vision to deliver detailing excellence.</p>
+      </div>
+      <div class="timeline-item">
+        <i class="bx bx-car"></i>
+        <h3>2022</h3>
+        <p>Expanded into mobile detailing services, bringing convenience to our clients.</p>
+      </div>
+      <div class="timeline-item">
+        <i class="bx bx-award"></i>
+        <h3>2023</h3>
+        <p>we got recognised as one of the top car detailing providers in Burgersfort.</p>
+      </div>
+    </div>
 
-      <h2>Our Vision</h2>
+    <h2>Our Mission</h2>
+    <div class="icon-card">
+      <i class="bx bx-target-lock"></i>
       <p>
-       To be the leading car detailing business while providing innovative services. we aspire to set the industry standard for excellence and expand our operations while introducing cutting-edge detailing technologies and protective solutions. we aim to encourage car enthusiasts and everyday drivers to maintain the beauty and longevity of their vehicles.
+        Our mission is to deliver world-class car detailing services that go beyond surface-level cleaning. We are dedicated to restoring vehicles to OEM condition while enhancing their durability and long-term value. Whether it is a quick wash or a full restoration, our focus is always on meeting expectations and ensuring customer satisfaction.
       </p>
-    </section>
+    </div>
 
-    <section>
-      <h2>Our Values</h2>
-      <ul>
-        <li><strong>Excellence:</strong> We treat every car as our own and with the utmost care.</li>
-        <li><strong>Trust:</strong> To build lasting relationships through honesty and reliability.</li>
-        <li><strong>Innovation:</strong> Embracing the latest products and techniques in detailing.</li>
-        <li><strong>Passion:</strong> The love of cars drives us.</li>
-      </ul>
-    </section>
-<!--team members-->
-  <section aria-labelledby="team">
-    <h2 id="team">Team</h2>
+    <h2>Our Vision</h2>
+    <div class="icon-card">
+      <i class="bx bx-show"></i>
+      <p>
+        Our vision is to become the leading car detailing company in South Africa and beyond, recognized for innovation, professionalism, and trust. We aspire to set the standard in the automotive care industry by introducing cutting-edge techniques such as ceramic coatings, paint protection films, and eco-friendly solutions. By continuously evolving with the industry and listening to our clients needs, we seek to inspire vehicle owners to take pride in their cars, not only for aesthetics but also for preservation and long-term performance.
+      </p>
+    </div>
+
+    <h2>Our Values</h2>
+    <div class="values-grid">
+      <div class="value-item">
+        <i class="bx bx-star"></i>
+        <h4>Excellence</h4>
+        <p>We treat every car as if it were our own, with precision, care, and pride in workmanship  .</p>
+      </div>
+      <div class="value-item">
+        <i class="bx bx-shield"></i>
+        <h4>Trust</h4>
+        <p>We build lasting relationships through honesty, transparency, and reliability.</p>
+      </div>
+      <div class="value-item">
+        <i class="bx bx-bulb"></i>
+        <h4>Innovation</h4>
+        <p>We continuously explore new detailing technologies, products, and methods to stay ahead of the curve.</p>
+      </div>
+      <div class="value-item">
+        <i class="bx bx-heart"></i>
+        <h4>Passion</h4>
+        <p>Our love for cars drives our dedication for perfection and is the energy behind everything we do.</p>
+      </div>
+      <div class="value-item">
+        <i class="bx bx-leaf"></i>
+        <h4>Sustainability</h4>
+        <p>We are committed to reducing water usage and protecting the environment. We also use eco-friendly products.</p>
+      </div>
+      <div class="value-item">
+        <i class="bx bx-user-voice"></i>
+        <h4>Customer Focus</h4>
+        <p>We tailor every service to meet the unique needs of our clients.</p>
+      </div>
+    </div>
+
+    <!-- Team section-->
+    <h2 id="team">Meet the Team</h2>
     <div class="card-grid">
       <article class="card">
+        <i class="bx bx-user"></i>
         <h3>Kabelo M &amp; Tim</h3>
-        <p>Master Detailers, responsible for both the exterior and interior detail.</p>
+        <p>Master Detailers with years of experience in both exterior and interior vehicle restoration. Their expertise ensures precision in every detail, from paint correction to deep interior cleaning.</p>
       </article>
       <article class="card">
+        <i class="bx bx-spray-can"></i>
         <h3>Bruce</h3>
-        <p> Responsible for ice blasting.</p>
+        <p>Ice Blasting Specialist, using advanced technology to safely remove dirt and contaminants without damaging the integrity of every vehicle surface.</p>
       </article>
       <article class="card">
+        <i class="bx bx-paint"></i>
         <h3>Jay &amp; Jack</h3>
-        <p>Paint Specialists, responsible for dent removal, paint correction, ceramic coating and PPF.</p>
+        <p>Paint Specialists dedicated to dent removal, paint correction, ceramic coatings, and PPF. They ensure flawless finishes.</p>
       </article>
     </div>
-  </section>
+  </div>
+</section>
 </main>
 
 <footer>
-  <small>&copy; <span id="year"></span>AutoPro</small>
+    <div class="social-media">
+      	<a href="#" style="--i:1;" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+        <a href="#" style="--i:2;" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+        <a href="#" style="--i:3;" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+        <a href="#" style="--i:4;" arial-label="Whatsapp"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+  <small>&copy; 2025 AutoPro</small>
 </footer>
 
+
+</body>
 </html>
 
