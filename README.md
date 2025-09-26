@@ -103,7 +103,20 @@ the footer has a white background and the letters are black
 Mobile detailing at your doorstep
 Interior & exterior deep cleaning
 Paint protection & polishing
-Affordable, reliable, and professional
+Affordable, reliable, and professional. Why Choose AutoPro?
+Expert Care
+Our professional team ensures your vehicle receives top-tier detailing and protection.
+
+On-Site & On-Time
+We come to you at your convenience – saving time without compromising quality.
+
+Guaranteed Satisfaction
+We take pride in delivering outstanding results that revive your ride’s shine.
+
+Ready to Revive Your Car?
+Book your professional detailing appointment today and experience the AutoPro difference!
+
+Book Now, Services
  addded a features section and  Call to Action Section to the index page
 
  The about us page:
@@ -146,10 +159,49 @@ Ice Blasting Specialist, using advanced technology to safely remove dirt and con
 Jay & Jack
 Paint Specialists dedicated to dent removal, paint correction, ceramic coatings, and PPF. They ensure flawless finishes.
 
+services page:
+🚗 Express Wash 🚗
+Quick and efficient wash to keep your car looking fresh every day.
+⏱ 60 to 90 min
+R200
+Book Express
+✨ Full Detail ✨
+Complete interior and exterior care for a showroom-ready finish.
+⏱ 4 to 6 hrs
+From R350
+Book Full Detail
+🔥 Extreme Detail 🔥
+Includes ceramic coating and engine bay cleaning.
+
+⏱ 1 day
+From R800
+Book Extreme Detail
+👑 Ultimate Detail 👑
+Includes paint correction, dent removal, and full protection.
+⏱ 2 to 3 days
+From R3,500
+
 Booking page:
-a how it works section was added and Frequently Asked Questions along with answer were added along with icons 
+a how it works section was added and Frequently Asked Questions along with answer were added along with icons.  How It Works
+1. Choose Date
+Select a date that works best for you.
+
+2. Pick Service
+Choose the detailing or wash package you prefer.
+
+3. Confirm Booking
+Submit your request and we’ll confirm shortly.
+
+Frequently Asked Questions
+Do I need to pay online?
+What if I need to reschedule?
+How long does detailing take?
 Contact page:
-a Newsletter Signup was added 
+a Newsletter Signup was added. Stay Updated
+Subscribe to our newsletter to get the latest updates and promotions.
+
+Enter your email
+Subscribe
 
 
 
