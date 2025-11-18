@@ -5,99 +5,157 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | AutoPro</title>
 
-<!-- css stylesheet Link -->
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Contact AutoPro in Burgersfort. Call, email, or visit our detailing studio. Mobile detailing available.">
+  <meta property="og:title" content="Contact AutoPro | Burgersfort Detailing Studio">
+  <meta property="og:url" content="https://autopro.co.za/contact.html">
+
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
   <link href="css/mystyle.css" rel="stylesheet">
 </head>
+
 <body>
 
-  <header class="header">
-    <a href="index.html" class="logo">AutoPro</a>
-<!-- Hidden checkbox toggle -->
+<header class="header">
+  <a href="index.html" class="logo">AutoPro</a>
+
   <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-<!-- Hamburger button -->
   <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label> 
-<!--navigation bar-->
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="booking.html">Booking</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
-  </header>
+    <span></span><span></span><span></span>
+  </label>
 
-  <main id="main">
-    <h1>Get in Touch</h1>
+  <nav class="navbar">
+    <a href="index.html" style="--i:1;">Home</a>
+    <a href="about.html" style="--i:2;">About</a>
+    <a href="services.html" style="--i:3;">Services</a>
+    <a href="gallery.html" style="--i:4;">Gallery</a>
+    <a href="booking.html" style="--i:5;">Booking</a>
+    <a href="contact.html" style="--i:6;" class="active">Contact</a>
+  </nav>
+</header>
 
-    <section class="contact-grid">
-      <div>
-        <h2>Detail Studio — Burgersfort</h2>
-        <address>
-          Eddie sedibe street, Burgersfort, 1150<br>
-          <strong>Phone:</strong> +27 82 243 4890<br>
-          <strong>Email:</strong> <a href="mailto:hello@AutoPro.co.za">hello@AutoPro.co.za</a>
-        </address>
-        <!--Bugersfort iframe-->
-        <div class="map-embed" aria-label="Map: Burgersfort">
-          <iframe
-            title="Burgersfort, South Africa"
-            width="100%" height="320"
-            style="border:0;"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://maps.google.com/maps?q=-24.666667,30.333333&z=13&output=embed">
-          </iframe>
-        </div>
+<main>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact slide-up">
+    <h1>Contact Us</h1>
+    <p>We are always happy to help! Reach out via message, phone, email, or visit our studio.</p>
+
+    <div class="contact-grid">
+
+      <!-- INFO -->
+      <div class="contact-info">
+        <h2>Our Info</h2>
+        <p><i class='bx bx-map'></i> Maphakela M L, 2806 Tubatse Township, Burgersfort, 1150, South Africa</p>
+        <p><i class='bx bx-phone'></i> +27 82 123 4567</p>
+        <p><i class='bx bx-envelope'></i> info@autopro.co.za</p>
+        <p><i class='bx bx-time'></i> Mon–Sat: 08:00 – 18:00</p>
+        <p><i class='bx bx-car'></i> Mobile: 07:00 – 17:30</p>
       </div>
 
-      <div>
-        <h2>Mobile Service Hours</h2>
-        <p>Mon–Sat • 08:00–18:00</p>
-      </div>
-    </section>
+      <!-- FORM -->
+      <form id="contact-form" novalidate>
+        <fieldset>
+          <legend>Send a Message</legend>
 
-    <section>
-      <h2>Quick Message</h2>
-      <form action="#" method="post" novalidate>
-        <label for="c-name">Name</label>
-        <input id="c-name" name="name" type="text" required>
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required>
 
-        <label for="c-email">Email</label>
-        <input id="c-email" name="email" type="email" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
 
-        <label for="c-msg">Message</label>
-        <textarea id="c-msg" name="message" rows="6" required></textarea>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
 
-        <button class="btn" type="submit" aria-label="Send message">Send</button>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </fieldset>
+
+        <small id="contact-form-msg" class="form-msg"></small>
+        <button class="btn" type="submit">Send Message</button>
       </form>
-    </section>
-     <!-- Newsletter Signup -->
-    <section>
-      <h2>Stay Updated</h2>
-      <p>Subscribe to our newsletter to get the latest updates and promotions.</p>
-      <form action="#" method="post" novalidate>
-        <input type="email" name="newsletter" placeholder="Enter your email" required>
-        <button class="btn" type="submit">Subscribe</button>
-      </form>
-    </section>
-    
-  </main>
 
-  <footer>
-    <div class="social-media">
-    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
-    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
-    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+  </section>
+
+  <!-- MAP SECTION -->
+  <section class="map slide-up">
+    <h2>Find Us Here</h2>
+    <div class="map-embed">
+      <iframe 
+        src="https://maps.google.com/maps?q=-24.666667,30.333333&z=13&output=embed"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <style>
+    .map-embed {
+      width: 100%;
+      height: 320px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-top: 1rem;
+    }
+    .map-embed iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+
+  <!-- FAQ SECTION -->
+  <section class="faq slide-up">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>Do I need to pay online?</summary>
+      <p>No, payment is only made once your service is completed.</p>
+    </details>
+
+    <details>
+      <summary>Can I reschedule my booking?</summary>
+      <p>Yes, just contact us at least 24 hours before your appointment.</p>
+    </details>
+
+    <details>
+      <summary>How long does detailing take?</summary>
+      <p>Express: ~1 hr • Full: 4–6 hrs • Extreme/Ultimate: 1–3 days.</p>
+    </details>
+
+    <details>
+      <summary>Do you provide mobile detailing?</summary>
+      <p>Yes, we can come to your home or workplace.</p>
+    </details>
+
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter slide-up">
+    <h2>Stay Updated</h2>
+    <p>Subscribe for promotions, tips, and updates.</p>
+
+    <form action="#" method="post" novalidate>
+      <input type="email" name="newsletter" placeholder="Enter your email" required>
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="social-media">
+    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#"><i class='bx bxl-tiktok'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+    <a href="#"><i class='bx bxl-whatsapp'></i></a>
   </div>
-    <small>&copy; 2025 AutoPro</small>
-  </footer>
+  <small>&copy; 2025 AutoPro</small>
+</footer>
+
+<script src="javascript/myscript.js"></script>
 
 </body>
 </html>
-
