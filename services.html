@@ -3,111 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore AutoPro detailing packages including Express Wash, Full Detail, Extreme Detail, and Ultimate Detail.">
   <title>Services | AutoPro</title>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore AutoPro detailing packages including Express Wash, Full Detail, Extreme Detail, Ultimate Detail, Eco Wash, and Engine Detailing.">
+  <meta property="og:title" content="AutoPro Services | Vehicle Detailing Packages">
+  <meta property="og:url" content="https://autopro.co.za/services.html">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
   <link href="css/mystyle.css" rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <a href="#" class="logo">AutoPro</a>
-    <!-- Hidden checkbox toggle -->
-  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-<!-- Hamburger button -->
-  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label> 
-    <!-- Navigation bar -->
-<nav class="navbar">
-    <a href="index.html" style="--i:1;">Home</a>
+
+    <!-- Mobile menu toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+    <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <a href="index.html" style="--i:1;">Home</a>
       <a href="about.html" style="--i:2;">About</a>
       <a href="services.html" style="--i:3;" class="active">Services</a>
-      <a href="booking.html" style="--i:4;">Booking</a>
-      <a href="contact.html" style="--i:5;">Contact</a>
+      <a href="gallery.html" style="--i:4;">Gallery</a>
+      <a href="booking.html" style="--i:5;">Booking</a>
+      <a href="contact.html" style="--i:6;">Contact</a>
     </nav>
   </header>
 
-  <!-- Services -->
+  <!-- Services Section -->
   <main id="main">
     <h1>Detailing Packages</h1>
 
     <section class="services-grid">
+
+      <!-- EXPRESS WASH -->
       <article class="service-card">
-        <h2>🚗 Express Wash 🚗</h2>
+        <h2>🚗 Express Wash</h2>
         <p>Quick and efficient wash to keep your car looking fresh every day.</p>
         <ul>
           <li>Snow-foam pre-wash</li>
           <li>Two-bucket hand wash</li>
-          <li>Wheel and tyre clean, blow-dry</li>
+          <li>Wheel & tyre clean + blow-dry</li>
           <li>⏱ 60 to 90 min</li>
           <li><span class="price">R200</span></li>
-          
         </ul>
         <a class="btn" href="booking.html?service=express">Book Express</a>
       </article>
 
+      <!-- FULL DETAIL -->
       <article class="service-card">
-        <h2>✨ Full Detail ✨</h2>
+        <h2>✨ Full Detail</h2>
         <p>Complete interior and exterior care for a showroom-ready finish.</p>
         <ul>
           <li>Snow-foam pre-wash</li>
-          <li>Power pressure wash</li>
-          <li>Wheel and tyre clean, blow-dry</li>
+          <li>Pressure wash</li>
+          <li>Wheel & tyre clean + blow-dry</li>
           <li>Interior detail</li>
           <li>⏱ 4 to 6 hrs</li>
           <li><span class="price">From R350</span></li>
-          
         </ul>
         <a class="btn" href="booking.html?service=full">Book Full Detail</a>
       </article>
 
+      <!-- EXTREME DETAIL -->
       <article class="service-card">
-        <h2>🔥 Extreme Detail 🔥</h2>
+        <h2>🔥 Extreme Detail</h2>
         <p>Includes ceramic coating and engine bay cleaning.</p>
         <ul>
           <li>Snow-foam pre-wash</li>
-          <li>Power pressure wash or hand wash</li>
-          <li>Wheel and tyre clean, blow-dry</li>
+          <li>Hand wash / pressure wash</li>
+          <li>Wheel & tyre clean + blow-dry</li>
           <li>Interior detail</li>
           <li>Ceramic coating</li>
           <li>Engine bay detail</li>
           <li>Chassis clean</li>
           <li>⏱ 1 day</li>
           <li><span class="price">From R800</span></li>
-          
         </ul>
         <a class="btn" href="booking.html?service=extreme">Book Extreme Detail</a>
       </article>
 
+      <!-- ULTIMATE DETAIL -->
       <article class="service-card">
-        <h2>👑 Ultimate Detail 👑</h2>
+        <h2>👑 Ultimate Detail</h2>
         <p>Includes paint correction, dent removal, and full protection.</p>
         <ul>
           <li>Dent removal</li>
-          <li>Full paint correction</li>
+          <li>Paint correction</li>
           <li>Paint protection film</li>
           <li>Ice blasting</li>
-          <li>⏱ 2 to 3 days</li>
+          <li>⏱ 2–3 days</li>
           <li><span class="price">From R3,500</span></li>
-          
         </ul>
         <a class="btn" href="booking.html?service=ultimate">Book Ultimate Detail</a>
       </article>
+
+      <!-- ECO WASH -->
+      <article class="service-card">
+        <h2>🌿 Eco-Friendly Wash</h2>
+        <p>Water-saving and biodegradable products for green detailing.</p>
+        <ul>
+          <li>Biodegradable soap</li>
+          <li>Minimal water usage</li>
+          <li>Quick exterior polish</li>
+          <li>⏱ 45–60 min</li>
+          <li><span class="price">R180</span></li>
+        </ul>
+        <a class="btn" href="booking.html?service=eco">Book Now</a>
+      </article>
+
+      <!-- ENGINE DETAIL -->
+      <article class="service-card">
+        <h2>💨 Engine & Underbody Detail</h2>
+        <p>Thorough cleaning to extend vehicle lifespan.</p>
+        <ul>
+          <li>Degreasing & pressure wash</li>
+          <li>Component detailing</li>
+          <li>Rust prevention treatment</li>
+          <li>⏱ 2–3 hrs</li>
+          <li><span class="price">From R400</span></li>
+        </ul>
+        <a class="btn" href="booking.html?service=engine">Book Now</a>
+      </article>
+
     </section>
   </main>
 
   <footer>
     <div class="social-media">
-    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
-    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
-    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
-  </div>
+      <a href="#"><i class='bx bxl-facebook-square'></i></a>
+      <a href="#"><i class='bx bxl-tiktok'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+      <a href="#"><i class='bx bxl-whatsapp'></i></a>
+    </div>
     <small>&copy; 2025 AutoPro</small>
   </footer>
 
-
+  <script src="javascript/myscript.js"></script>
 </body>
 </html>
