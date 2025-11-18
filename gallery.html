@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | AutoPro - Premium Car Detailing Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+
+    <meta name="description" content="View AutoPro's portfolio of recent car detailing work: including ceramic coating, paint correction, deep interior cleaning, and protective washes. See the results!">
+    <meta name="keywords" content="car detailing gallery, ceramic coating portfolio, paint correction results, interior deep clean examples, car wash pictures, AutoPro work">
+    <meta property="og:url" content="https://autopro.co.za/gallery.html">
+    <meta property="og:title" content="AutoPro Detailing Portfolio">
+    <meta property="og:description" content="View our latest paint correction and ceramic coating projects.">
+    <meta property="og:image" content="https://autopro.co.za/image/pic.jpg"> 
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<header class="header">
+  <a href="index.html" class="logo">AutoPro</a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+  <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <nav class="navbar">
+    <a href="index.html" style="--i:1;">Home</a>
+    <a href="about.html" style="--i:2;">About</a>
+    <a href="services.html" style="--i:3;">Services</a>
+    <a href="gallery.html" style="--i:4;" class="active">Gallery</a>
+    <a href="booking.html" style="--i:5;">Booking</a>
+    <a href="contact.html" style="--i:6;">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="gallery-section slide-up" itemscope itemtype="http://schema.org/ImageGallery">
+  <h1 itemprop="name">Our Work Portfolio: Detailing Results</h1>
+  <p itemprop="description">Check out our recent detailing projects. From paint correction to interior deep cleans, we let the results speak for themselves.</p>
+
+  <div class="gallery-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="exterior">Exterior</button>
+    <button class="filter-btn" data-filter="interior">Interior</button>
+    <button class="filter-btn" data-filter="correction">Correction</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item" data-category="exterior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/pic.jpg" alt="Close-up of a highly reflective red sports car with fresh ceramic coating applied." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Ceramic Coating</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="interior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/car-2378419_1280.jpg" alt="Interior view of spotless, conditioned leather seats after a deep clean." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Interior Deep Clean</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="correction" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/vehicle-7138638_1280.jpg" alt="Technician polishing a car hood to remove swirl marks and restoring gloss." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Polish</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="exterior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/car.jpg" alt="Car completely covered in thick snow foam during the wash pre-soak stage." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Snow Foam Wash</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="interior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/chrome-2151559_1280.jpg" alt="Detailed engine bay after deep cleaning and dressing for a showroom look." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Engine Clean</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="exterior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/tire-2875251_1280.jpg" alt="Closeup of a clean rim and a new tire dressed with high-gloss shine." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Rim & Tire Care</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="exterior" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/automobile-2861859_1280.jpg" alt="Thorough cleaning of a car's underbody chassis to remove road grime." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Underbody Clean</h3>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-category="correction" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="image/porsche-4891966_1280.jpg" alt="Before and after view showing deep reflection achieved by paint correction." itemprop="contentUrl">
+      <div class="overlay">
+        <i class='bx bx-zoom-in'></i>
+        <h3 itemprop="caption">Paint Correction</h3>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div id="caption"></div>
+</div>
+
+<footer>
+  <div class="social-media">
+    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#"><i class='bx bxl-tiktok'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+  <small>© 2025 AutoPro</small>
+</footer>
+
+<script src="javascript/myscript.js"></script>
+</body>
+</html>
