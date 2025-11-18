@@ -203,11 +203,54 @@ Subscribe to our newsletter to get the latest updates and promotions.
 Enter your email
 Subscribe
 
+ New changes that were made 
+ Added a Javascript file. 
+ Linked the pages with the javascript file.
+ Made the website mobile responsive
+ Added a back to the top button 
+ Added  floating particles, 3D tilt, Parallax movement and a Floating Hero image animation. Multi-colour neon spark underline for the navbar. 
+ Added more keyframes to improve the animations. 
+ Added a <meta hppt-equiv="X-UA-Compatible" content="IE=edge"> on the index page. Added a JSON-LD. 
+ The social media icons are centered on the footer.
+ Added a Responsive map container on the contact page and moblie service working hours.
+ Made the Price badge pop on card hover and turn organge on the service page.
+ Added additional services 
+ 🌿 Eco-Friendly Wash
+Water-saving and biodegradable products for green detailing.
+Biodegradable soap
+Reduced water usage
+Quick exterior polish
+⏱ 45–60 min
+R180
+💨 Engine & Underbody Detail
+Thorough cleaning to extend vehicle lifespan.
+Degreasing & power wash
+Detailing of engine components
+Rust prevention treatment
+⏱ 2–3 hrs
+From R400
+Added a sitemap file
+Added a robots.txt
+Added JSON-LD  on the booking page.
+Added a SEO Meta Tags on the contact page.
+Added a Primary SEO, OpenGraph, <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>  on the about page.
+Added a SEO Meta Tags on the Services page.
+Created a gallery page 
+Changed the h1, h2, h3 colour from black to blue. 
+ 
 
 
-Research 
-Images: Pixabay car image https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg
-pic https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_1280.jpg
+
+
+
+Images: Pixabay car image. Available at: https://cdn.pixabay.com/photo/2019/01/28/17/00/car-wash-3960877_1280.jpg.
+pic.Available at: https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_1280.jpg. [Accessed 16 November 2025]
+automobile-2861859_1280. https://cdn.pixabay.com/photo/2017/10/17/19/27/auto-2861859_1280.jpg.[Accessed 16 November 2025]
+car-2378419_1280. Available at: https://cdn.pixabay.com/photo/2017/06/06/20/56/car-2378419_1280.jpg.[Accessed 16 November 2025]
+chrome-2151559_1280. Available at: https://cdn.pixabay.com/photo/2017/03/17/13/29/chrome-2151559_1280.jpg.[Accessed 16 November 2025]
+porsche-4891966_1280. Available at: https://cdn.pixabay.com/photo/2020/03/01/07/41/porsche-4891966_1280.jpg.[Accessed 16 November 2025]
+tire-2875251_1280. Available at: https://cdn.pixabay.com/photo/2017/10/21/17/18/mature-2875251_1280.jpg. [Accessed 16 November 2025]
+vehicle-7138638_1280. Available at:https://cdn.pixabay.com/photo/2022/04/17/18/11/vehicle-7138638_1280.jpg. [Accessed 16 November 2025]
 social media icon: Boxicons
 Content gathering: Precision Glaze Professional auto detailing, Postermywall, Mycreativeshop and Youtube 
 
@@ -223,6 +266,10 @@ Content intergration
 Readme.md file 
 version 0.4 
 code clean up and verification 
+version 0.5 
+creation of the javascript file and the gallery html file. 
+version 0.6 
+testing and debugging 
 
 References: 
 Allancx web. 2025. Average website maintenance costs in south Africa. Available at: https://www.allanxweb.com [Accessed 18 August 2025].  
@@ -234,8 +281,11 @@ Google. 2025. Burgersfort, limpopo, Google Maps. Available at: https://goo.hl/ma
 Hostafrica. 2025. Fast,reliable and secure web hosting in south Africa Available at: https://www.hostafrica.co.za [Accessed 18 August 2025].  
 OpenAi.2025. ChatGPT(GPT-5). Available at: https://chat.openai.com [Accessed: 20 August 2025].
 Pixabay. 2025. Discover and download- images for every need. Available at: https://pixabay.com [Accessed 25 August 2025].
+PSK code. 2025. Insane css and js animations for websites. Available at: https:www.youtube.com/@pkscode. [Accessed 16 November 2025]
 Sergeant, C., 2025. Shopify pricing south Africa 2025: plans,Cost and Netcash fees. Available at: https:netcash.co.za [Accessed 18 August 2025].
 W3Schools (2025) HTML Tutorial. Available at: https://www.w3schools.com/html/ [Accessed: 18 August 2025].  
 W3Schools. 2025. CSS Tutorial. Available at: https://www.w3schools.com/html/ [Accessed: 24 September 2025].
+W3Schools. 2025. Javascript Tutorial. Available at: https://www.w3schools.com/html/ [Accessed 16 November 2025].
+
 
 
