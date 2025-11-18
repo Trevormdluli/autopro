@@ -3,9 +3,21 @@
 
 <head>
         <meta charset="UTF-8">
-        <meta hppt-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AutoPro</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="AutoPro offers professional mobile and studio car detailing in Burgersfort. From express wash to full detailing, ceramic coating, and paint correction. Book online today.">
+        <meta name="keywords" content="car wash, detailing, Burgersfort, ceramic coating, mobile detailing, AutoPro">
+        <meta name="author" content="AutoPro">
+
+        <!-- OpenGraph -->
+        <meta property="og:title" content="AutoPro | Professional Car Detailing in Burgersfort">
+        <meta property="og:description" content="Express wash, full detail, ceramic coating, mobile detailing, and more. AutoPro is Burgersfort’s trusted detailing studio.">
+        <meta property="og:image" content="https://autopro.co.za/images/cover.jpg">
+        <meta property="og:url" content="https://autopro.co.za/">
+        <meta property="og:type" content="website">
 
   <!-- css stylesheet Link -->
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -28,8 +40,9 @@
         <a href="index.html" style="--i:1;" class="active">Home</a>
         <a href="about.html" style="--i:2;">About</a>
         <a href="services.html" style="--i:3;">Services</a>
-        <a href="booking.html" style="--i:4;">Booking</a>
-        <a href="contact.html" style="--i:5;">Contact</a>
+        <a href="gallery.html" style="--i:4;">Gallery</a>
+        <a href="booking.html" style="--i:5;">Booking</a>
+        <a href="contact.html" style="--i:6;">Contact</a>
     </nav>
 
   </header>
@@ -93,6 +106,33 @@
     <small>&copy; 2025 AutoPro</small>
   </footer>
 
+<script src="javascript/myscript.js"></script>
+<!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutomotiveBusiness"
+      "name": "AutoPro",
+      "image": "https://autopro.co.za/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Maphakela M L",
+        "addressLocality": "Burgersfort",
+        "postalCode": "1150",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -24.666667,
+        "longitude": 30.333333
+      },
+      "url": "https://autopro.co.za",
+      "telephone": "+27 82 243 4890",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "priceRange": "R200 - R3500",
+      "description": "Professional mobile and studio car detailing in Burgersfort."
+    }
+    </script>
 
 </body>
 </html>
