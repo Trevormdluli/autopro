@@ -3,126 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book your AutoPro car detailing service: Express Wash, Full Detail, Extreme Detail, Ultimate Detail.">
   <title>Booking | AutoPro</title>
-<!-- css stylesheet Link -->
- <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-<link href="css/mystyle.css" rel="stylesheet">
+
+  <!-- JSON-LD-->
+  <meta property="og:title" content="Book a Car Detailing Appointment | AutoPro">
+  <meta property="og:url" content="https://autopro.co.za/booking.html">
+
+  <!-- CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet">
 </head>
+
 <body>
 
-  <header class="header">
-        <a href="#" class="logo">AutoPro</a>
-<!-- Hidden checkbox toggle -->
+<header class="header">
+  <a href="index.html" class="logo">AutoPro</a>
+
+  <!-- Mobile Menu -->
   <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-<!-- Hamburger button -->
   <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label> 
-<!--navigation bar-->
-    <nav class="navbar">
-        <a href="index.html" style="--i:1;">Home</a>
-        <a href="about.html" style="--i:2;">About</a>
-        <a href="services.html" style="--i:3;">Services</a>
-        <a href="booking.html" style="--i:4;"class="active">Booking</a>
-        <a href="contact.html" style="--i:5;">Contact</a>
-    </nav>
-  </header>
-    
-<!--booking form-->
-  <main id="main">
-    <h1>Book an Appointment</h1>
-    <form id="booking-form" action="#" method="post" novalidate>
-      
-      <fieldset>
-        <legend>Your Details</legend>
+    <span></span><span></span><span></span>
+  </label>
 
-        <label for="name">Full Name</label>
-        <input id="name" name="name" type="text" autocomplete="name" required>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" style="--i:1;">Home</a>
+    <a href="about.html" style="--i:2;">About</a>
+    <a href="services.html" style="--i:3;">Services</a>
+    <a href="gallery.html" style="--i:4;">Gallery</a>
+    <a href="booking.html" style="--i:5;" class="active">Booking</a>
+    <a href="contact.html" style="--i:6;">Contact</a>
+  </nav>
+</header>
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" autocomplete="email" required>
+<main id="main">
 
-        <label for="phone">Phone</label>
-        <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
-      </fieldset>
+  <h1>Book an Appointment</h1>
 
-      <fieldset>
-        <legend>Vehicle &amp; Service</legend>
+  <!-- Booking Form -->
+  <form id="booking-form" action="#" method="post" novalidate>
 
-        <label for="make">Make &amp; Model</label>
-        <input id="make" name="make" type="text" placeholder="e.g., BMW 3 Series" required>
+    <fieldset>
+      <legend>Your Details</legend>
 
-        <label for="service">Service</label>
-        <select id="service" name="service" required>
-          <option value="">Choose…</option>
-          <option value="express">Express Wash</option>
-          <option value="full">Full Detail</option>
-          <option value="extreme">Extreme Detail</option>
-          <option value="ultimate">Ultimate Detail</option>
-        </select>
+      <label for="name">Full Name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
 
-        <label for="date">Preferred Date</label>
-        <input id="date" name="date" type="date" min="<?= date('Y-m-d'); ?>" required>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
 
-        <label class="check">
-          <input type="checkbox" name="mobile" value="yes"> Request mobile service (at your location)
-        </label>
-      </fieldset>
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+    </fieldset>
 
-      <button class="btn" type="submit">Submit Request</button>
-    </form>
-  </main>
-   <!-- How It Works -->
-  <section class="how-it-works">
-    <h2>How It Works</h2>
-    <div class="steps">
-      <div class="step">
-        <i class='bx bx-calendar'></i>
-        <h3>1. Choose Date</h3>
-        <p>Select a date that works best for you.</p>
-      </div>
-      <div class="step">
-        <i class='bx bx-car'></i>
-        <h3>2. Pick Service</h3>
-        <p>Choose the detailing or wash package you prefer.</p>
-      </div>
-      <div class="step">
-        <i class='bx bx-check-circle'></i>
-        <h3>3. Confirm Booking</h3>
-        <p>Submit your request and we’ll confirm shortly.</p>
-      </div>
+    <fieldset>
+      <legend>Vehicle & Service</legend>
+
+      <label for="make">Make & Model</label>
+      <input id="make" name="make" type="text" placeholder="e.g., BMW 3 Series" required>
+
+      <label for="service">Service</label>
+      <select id="service" name="service" required>
+        <option value="">Choose…</option>
+        <option value="express">Express Wash</option>
+        <option value="full">Full Detail</option>
+        <option value="extreme">Extreme Detail</option>
+        <option value="ultimate">Ultimate Detail</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input id="date" name="date" type="date" required>
+
+      <label class="check">
+        <input type="checkbox" name="mobile" value="yes">
+        Request mobile service (at your location)
+      </label>
+    </fieldset>
+
+    <button class="btn" type="submit">Submit Request</button>
+
+  </form>
+
+</main>
+
+<!-- How It Works -->
+<section class="how-it-works">
+  <h2>How It Works</h2>
+
+  <div class="steps">
+    <div class="step">
+      <i class='bx bx-calendar'></i>
+      <h3>1. Choose Date</h3>
+      <p>Select a day that works best for you.</p>
     </div>
-  </section>
-  <!-- FAQ Section -->
-  <section class="faq">
-    <h2>Frequently Asked Questions</h2>
-    <details>
-      <summary>Do I need to pay online?</summary>
-      <p>No, payment can be made after the service is complete.</p>
-    </details>
-    <details>
-      <summary>What if I need to reschedule?</summary>
-      <p>You can easily reschedule by contacting us at least 24 hours before your appointment.</p>
-    </details>
-    <details>
-      <summary>How long does detailing take?</summary>
-      <p>Depending on the package, it usually takes between 1–4 hours.</p>
-    </details>
-  </section>
 
-  <footer>
-    <div class="social-media">
-    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
-    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
-    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-    <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+    <div class="step">
+      <i class='bx bx-car'></i>
+      <h3>2. Pick Service</h3>
+      <p>Choose your detailing package.</p>
+    </div>
+
+    <div class="step">
+      <i class='bx bx-check-circle'></i>
+      <h3>3. Confirm Booking</h3>
+      <p>Submit your request and we will confirm shortly.</p>
+    </div>
   </div>
-    <small>&copy; 2025 AutoPro</small>
-  </footer>
-  
+</section>
+
+<!-- FAQ Section -->
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <details>
+    <summary>Do I need to pay online?</summary>
+    <p>No, payment is made after the service is complete.</p>
+  </details>
+
+  <details>
+    <summary>What if I need to reschedule?</summary>
+    <p>Contact us 24 hours before your appointment to reschedule.</p>
+  </details>
+
+  <details>
+    <summary>How long does detailing take?</summary>
+    <p>Most services take 1–4 hours depending on the package.</p>
+  </details>
+</section>
+
+<footer>
+  <div class="social-media">
+    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#"><i class='bx bxl-tiktok'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+  <small>&copy; 2025 AutoPro</small>
+</footer>
+
+<script src="javascript/myscript.js"></script>
 
 </body>
 </html>
-
